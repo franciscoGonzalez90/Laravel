@@ -45,4 +45,6 @@ class LoginController extends Controller{
 		return View::make('Dashboard.dashboard')->with('users',HomeController::getAllUsuarios());
 	}
 
+	public function algo(){}
+
 }
